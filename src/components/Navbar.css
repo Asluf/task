@@ -1,0 +1,158 @@
+.Navbar {
+  height: 60px;
+  display: flex;
+
+  align-items: center;
+  background: #8a2be2;
+  padding: 0 20px;
+}
+
+.Navbar > .txt {
+  color: #ffffff;
+  margin: 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.Navbar > .txt p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.Navbar > .lg {
+  flex-shrink: 0;
+}
+
+.Navbar > .lg img {
+  max-width: 40px;
+  margin-right: 5px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items a {
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 0 10px;
+  position: relative;
+  opacity: 0.9;
+}
+
+.nav-items a:hover {
+  opacity: 1;
+}
+
+.nav-items a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #ffffff;
+  transition: all 0.45s;
+}
+
+.nav-items a:hover::before {
+  width: 100%;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle > .bar {
+  position: relative;
+  width: 32px;
+  height: 2px;
+  background: #ffffff;
+}
+
+.nav-toggle > .bar::before,
+.nav-toggle > .bar::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 2px;
+  transition: all 0.45s ease-in-out;
+  width: 32px;
+}
+
+.nav-toggle > .bar::before {
+  top: -8px;
+}
+
+.nav-toggle > .bar::after {
+  bottom: -8px;
+}
+
+@media (max-width: 768px) {
+  .nav-items {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #8a2be2;
+    padding: 10px;
+  }
+
+  .nav-items.open {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Navbar > .lg {
+    flex-shrink: 0;
+  }
+
+  .Navbar > .lg img {
+    max-width: 40px;
+    padding: 5px;
+  }
+
+  .nav-items a {
+    margin: 10px 0;
+  }
+
+  .nav-toggle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .nav-toggle > .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background: #ffffff;
+  }
+
+  .nav-toggle > .bar::before,
+  .nav-toggle > .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+    width: 32px;
+  }
+
+  .nav-toggle > .bar::before {
+    top: -8px;
+  }
+
+  .nav-toggle > .bar::after {
+    bottom: -8px;
+  }
+}

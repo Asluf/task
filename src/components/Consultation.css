@@ -1,0 +1,54 @@
+/* .consultation-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+} */
+
+
+@media (max-width: 1440px) {
+  .consultation-image {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+  .image-container {
+    position: relative;
+  }
+  
+
+  
+}
+
+@media (max-width: 1200px) {
+  .consultation-image {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+  .image-container {
+    position: relative;
+  }
+  
+
+  
+}
+
+@media (max-width: 768px) {
+  .consultation-image {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .image-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  }
+  .consultation-image {
+    width: 100%;
+    height: 200px;
+  }
+  
+}

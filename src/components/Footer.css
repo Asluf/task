@@ -1,0 +1,101 @@
+/* Footer.css */
+
+.main-footer {
+  color: #ffffff;
+  background-color: #8a2be2;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0; /* Adjusted padding */
+}
+
+.container {
+  padding: 0 15px; /* Adjusted padding */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  max-width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.main-footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col1 p {
+  max-width: 100%; /* Set maximum width to 100% for responsiveness */
+  word-wrap: break-word;
+}
+
+.col1 h4 {
+  font-size: 18px; /* Adjusted font size for mobile */
+  margin-bottom: 10px;
+}
+
+.col2 {
+  margin-right: 0; /* Removed margin for mobile */
+}
+
+.main-footer ul {
+  list-style: none; /* Remove bullets */
+  padding: 0;
+  max-width: 150px; /* Set a maximum width */
+  word-wrap: break-word;
+}
+
+.col2 ul {
+  
+  font-size: 18px;
+   /* Align list items to the left */
+}
+.col2  li {
+  font-size: 14px;
+  padding-bottom: 10px; 
+  max-width: 150px; /* Set a maximum width */
+  word-wrap: break-word;/* Add padding between list items */
+}
+.col3  li {
+  font-size: 14px;
+  padding-bottom: 10px;
+  max-width: 150px; /* Set a maximum width */
+  word-wrap: break-word; /* Add padding between list items */
+}
+.col1 p {
+  max-width: 500px; /* Set a maximum width */
+  word-wrap: break-word; /* Allow text to wrap within the maximum width */
+}
+
+.main-footer .col-sm {
+  text-align: center;
+  justify-content: center;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 30px; /* Reverted padding for larger screens */
+  }
+
+  .main-footer .col1 {
+    flex: 1;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .col2 {
+    margin-right: 40px; /* Reverted margin for larger screens */
+  }
+
+  .main-footer .col-sm {
+    text-align: center; /* Center align the text for smaller screens */
+    margin-top: 20px;
+  }
+}

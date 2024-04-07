@@ -1,0 +1,259 @@
+@media (max-width: 1440px) {
+    .row-container1 {
+      margin: 50px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 95%;
+    }
+    .image-column {
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .text-column {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .row-container1 {
+      margin: 50px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 95%;
+    }
+    .image-column {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .text-column {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .row-container1 {
+      margin: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 90%;
+    }
+    .image-column {
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .image-column > img {
+      height: 300px;
+      width: 250px;
+    }
+    .text-column {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .row-container1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 95%;
+      margin: 0px;
+    }
+    .image-column {
+      width: 100%;
+    }
+    .image-column {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 250px;
+    }
+    .text-column {
+      text-align: center;
+      width: 100%;
+      text-wrap: wrap;
+      margin-left: 20px;
+      margin-right: 10px;
+    }
+  }
+  
+  /* 2nd row */
+  @media (max-width: 1440px) {
+    .row-container2 {
+      margin: 50px;
+      display: flex;
+      flex-direction: row;
+      width: 95%;
+    }
+    .image-column2 {
+      width: 45%;
+      margin-top: -70px;
+      display: flex;
+      justify-content: center;
+    }
+    .text-column2 {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .row-container2 {
+      margin: 50px;
+      display: flex;
+      flex-direction: row;
+      width: 95%;
+    }
+    .image-column2 {
+      width: 40%;
+      margin-top: -70px;
+      display: flex;
+      justify-content: center;
+    }
+    .text-column2 {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .row-container2 {
+      margin: 40px;
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+    }
+    .image-column2 {
+      display: flex;
+      margin-top: -70px;
+      justify-content: center;
+      width: 45%;
+    }
+    .image-column2 > img {
+      height: 300px;
+      width: 250px;
+    }
+    .text-column2 {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .row-container2 {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 95%;
+      margin: 0px;
+      margin-bottom: 100px;
+    }
+    .image-column2 {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+     
+    }
+    .text-column2 {
+      text-align: center;
+      width: 100%;
+      text-wrap: wrap;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  .faq {
+    margin-left: 380px;
+    margin-right: 380px;
+}
+
+.faq h2 {
+    color: blueviolet;
+    text-align: center;
+}
+
+.faq-item {
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.faq-item1 {
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.faq-item .one {
+    margin-bottom: 10px;
+    color: #8A2BE2;
+}
+
+.faq-item .two {
+    color: grey;
+}
+
+.faq-item1 p {
+    margin-bottom: 10px;
+    font-weight: 600px;
+}
+
+.faq-item button {
+    float: right;
+    border: none;
+    background-color: transparent;
+    
+}
+
+.faq-item1 button {
+    float: right;
+    border: none;
+    background-color: transparent;
+    
+    
+}
+
+@media (max-width: 1440px) {
+  .row-container3 {
+    margin: 50px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .row-container3 {
+    margin: 50px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .row-container3 {
+    margin: 40px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .row-container3 {
+    width: 95%;
+    margin: 0px;
+    margin-bottom: 100px;
+  }
+}
+
+
+.col3 {
+  padding: 0 20px; 
+}
